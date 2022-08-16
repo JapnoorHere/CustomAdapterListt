@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/etId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Id"
+            android:textColor="@color/black"
+            android:digits="0123456789"
+            android:inputType="number"
+            android:textSize="20sp"
+
+            />
+
+        <EditText
+            android:id="@+id/etName"
+            android:layout_marginTop="20dp"
+            android:textSize="20sp"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Name"
+            android:textColor="@color/black"
+            />
+        <EditText
+            android:id="@+id/etPhone"
+            android:layout_marginTop="20dp"
+            android:textSize="20sp"
+            android:inputType="number"
+            android:digits="0123456789"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Phone No."
+            android:textColor="@color/black"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Update"
+            android:layout_gravity="end"
+            android:layout_marginRight="20dp"
+            android:id="@+id/btnUpdate"
+            />
+
+
+
+
+    </LinearLayout>
+</layout>
